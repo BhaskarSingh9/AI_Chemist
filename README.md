@@ -50,8 +50,8 @@ cd AI_Chemist
     <pre><code>pip install -r requirements.txt
 </code></pre>
     <li><strong>Set up environment variables:</strong></li>
-    <p>Create a <code>.env</code> file in the root directory and add your Google API key:</p>
-    <pre><code>GOOGLE_API_KEY=your_api_key_here
+    <p>Commit changes in <code>.env</code> file in the root directory and add your Google API key: in space provided</p>
+    <pre><code>GOOGLE_API_KEY="ADD_YOUR_AP_ KEY_HERE"
 </code></pre>
     <li><strong>Run the application:</strong></li>
     <pre><code>streamlit run app.py
